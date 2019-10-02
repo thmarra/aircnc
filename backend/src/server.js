@@ -1,3 +1,6 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
 import express, { json } from 'express';
 import routes from './routes';
 
