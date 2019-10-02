@@ -4,17 +4,20 @@
     "description": "Backend do projeto criado na Semana OmniStack 9.0 da Rocketseat",
     "main": "index.js",
     "scripts": {
-        "dev": "nodemon --exec babel-node src/server.js"
+        "dev": "nodemon --exec babel-node ./src/server.js"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "mongoose": "^5.7.3"
     },
     "devDependencies": {
-        "babel-cli": "^6.26.0",
-        "babel-preset-env": "^1.7.0",
+        "@babel/core": "^7.6.2",
+        "@babel/node": "^7.6.2",
+        "@babel/plugin-proposal-class-properties": "^7.5.5",
+        "@babel/preset-env": "^7.6.2",
         "nodemon": "^1.19.3"
     }
 }

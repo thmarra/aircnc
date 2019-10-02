@@ -8,7 +8,6 @@ const app = express();
  * req.params = acessar route params (post, put, delete...)
  * req.body = acessar corpo da requisicao (post, put...)
  */
-
 app.use(json());
 app.use(routes);
 
