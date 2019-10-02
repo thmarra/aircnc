@@ -5,6 +5,7 @@
 Projeto criado na Semana OmniStack 9.0 da [Rocketseat](https://rocketseat.com.br)
 
 ## Estrutura
+```
 .
 ├── backend/src/
 |   ├── config/
@@ -19,3 +20,4 @@ Projeto criado na Semana OmniStack 9.0 da [Rocketseat](https://rocketseat.com.br
 |   └── package.json
 ├── uploads/          (diretório onde serão salvos os arquivos enviados para a API)
 └── README.md
+```
