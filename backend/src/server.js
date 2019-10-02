@@ -1,5 +1,5 @@
-const express = require('express');
-const routes = require('./routes');
+import express, { json } from 'express';
+import routes from './routes';
 
 const app = express();
 
@@ -9,7 +9,7 @@ const app = express();
  * req.body = acessar corpo da requisicao (post, put...)
  */
 
-app.use(express.json());
+app.use(json());
 app.use(routes);
 
 app.listen(3333);
