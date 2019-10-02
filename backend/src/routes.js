@@ -1,9 +1,8 @@
 import { Router } from 'express';
+import SessionController from './controllers/SessionController';
 
 const routes = Router();
 
-routes.get('/', (request, response) => {
-    return response.json({ message: "Hello!" });
-});
+routes.get('/', SessionController.store);
 
 export default routes;
