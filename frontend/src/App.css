@@ -29,6 +29,7 @@ body, input, button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 .content {
@@ -55,6 +56,11 @@ body, input, button {
   color: #444;
   font-weight: bold;
   margin-bottom: 8px;
+}
+
+.content form small {
+  color: #999;
+  font-weight: normal;
 }
 
 .content form input {

@@ -1,0 +1,23 @@
+ul.spot-list {
+    width: 100%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 30px;
+}
+
+ul.spot-list li {
+    display: flex;
+    flex-direction: column;
+}
+
+ul.spot-list li header {
+    width: 100%;
+    height: 120px;
+    /* background-image: url('http://localhost:3333/files/1573339837657_ampersand_coworking_chicago (1).jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
